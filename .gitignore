@@ -1,0 +1,42 @@
+# VIGIL — .gitignore
+
+# State files (user-specific, not for version control)
+.ember_state.json
+.compass_state.json
+.tide_state.json
+.mirror_state.json
+*.vigil_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
